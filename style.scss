@@ -1,0 +1,211 @@
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$very-dark-cyan: hsl(179, 100%, 13%);
+$transparent-white: hsla(0, 0%, 100%, 0.75); // (paragraphs)
+$very-light-gray: hsl(0, 0%, 95%); // (background, headings, buttons)
+$font-lexend-deca: 'Lexend Deca', sans-serif;
+$font-big-shoulders-display: 'Big Shoulders Display', cursive;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 100vh;
+  background-color: $very-light-gray;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  width: 920px;
+  height: 501px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.first {
+  width: 307px;
+  height: 501px;
+  background-color: $bright-orange;
+  padding: 48px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  
+  #logo-1 {
+    width: 66px;
+    height: 40px;
+    background: url('./images/icon-sedans.svg') no-repeat center;
+  }
+  .title {
+    h1 {
+      font-family: $font-big-shoulders-display;
+      color: $very-light-gray;
+      text-transform: uppercase;
+      font-size: 40px;
+    }
+  }
+  .content {
+    p {
+      font-family: $font-lexend-deca;
+      color: $transparent-white;
+      font-size: 15px;
+    }
+  }
+  button {
+    background-color: $very-light-gray;
+    width: 148px;
+    height: 50px;
+    border: 2px solid $very-light-gray;
+    border-radius: 50px;
+    font-family: $font-lexend-deca;
+    color: $bright-orange;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: $bright-orange;
+    color: $very-light-gray;
+  }
+}
+
+.second {
+  width: 307px;
+  height: 501px;
+  background-color: $dark-cyan;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  
+  #logo-2 {
+    width: 66px;
+    height: 40px;
+    background: url('./images/icon-suvs.svg') no-repeat center;
+  }
+  .title {
+    h1 {
+      font-family: $font-big-shoulders-display;
+      color: $very-light-gray;
+      text-transform: uppercase;
+      font-size: 40px;
+    }
+  }
+  .content {
+    p {
+      font-family: $font-lexend-deca;
+      color: $transparent-white;
+      font-size: 15px;
+    }
+  }
+  button {
+    background-color: $very-light-gray;
+    width: 148px;
+    height: 50px;
+    border: 2px solid $very-light-gray;
+    border-radius: 50px;
+    font-family: $font-lexend-deca;
+    color: $dark-cyan;
+  }
+  button:hover {
+    background-color: $dark-cyan;
+    color: $very-light-gray;
+  }
+}
+
+.third {
+  width: 307px;
+  height: 501px;
+  background-color: $very-dark-cyan;
+  padding: 48px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  
+  #logo-3 {
+    width: 66px;
+    height: 40px;
+    background: url('./images/icon-luxury.svg') no-repeat center;
+  }
+  .title {
+    h1 {
+      font-family: $font-big-shoulders-display;
+      color: $very-light-gray;
+      text-transform: uppercase;
+      font-size: 40px;
+    }
+  }
+  .content {
+    p {
+      font-family: $font-lexend-deca;
+      color: $transparent-white;
+      font-size: 15px;
+      // font-weight: 400;
+    }
+  }
+  button {
+    background-color: $very-light-gray;
+    width: 148px;
+    height: 50px;
+    border: 2px solid $very-light-gray;
+    border-radius: 50px;
+    font-family: $font-lexend-deca;
+    color: $very-dark-cyan;
+  }
+  button:hover {
+    background-color: $very-dark-cyan;
+    color: $very-light-gray;
+  }
+}
+
+@media screen and (max-width:375px) {
+  body {
+    width: 375px;
+  }
+  .container {
+    width: 327px;
+    height: 1326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+
+  .third {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+.attribution {
+  a {
+  color: hsl(228, 45%, 44%);
+}
+} 

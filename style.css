@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 100vh;
+  background-color: hsl(0deg, 0%, 95%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  width: 920px;
+  height: 501px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.first {
+  width: 307px;
+  height: 501px;
+  background-color: hsl(31deg, 77%, 52%);
+  padding: 48px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+}
+.first #logo-1 {
+  width: 66px;
+  height: 40px;
+  background: url("./images/icon-sedans.svg") no-repeat center;
+}
+.first .title h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0deg, 0%, 95%);
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.first .content p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+.first button {
+  background-color: hsl(0deg, 0%, 95%);
+  width: 148px;
+  height: 50px;
+  border: 2px solid hsl(0deg, 0%, 95%);
+  border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(31deg, 77%, 52%);
+  cursor: pointer;
+}
+.first button:hover {
+  background-color: hsl(31deg, 77%, 52%);
+  color: hsl(0deg, 0%, 95%);
+}
+
+.second {
+  width: 307px;
+  height: 501px;
+  background-color: hsl(184deg, 100%, 22%);
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+}
+.second #logo-2 {
+  width: 66px;
+  height: 40px;
+  background: url("./images/icon-suvs.svg") no-repeat center;
+}
+.second .title h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0deg, 0%, 95%);
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.second .content p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+.second button {
+  background-color: hsl(0deg, 0%, 95%);
+  width: 148px;
+  height: 50px;
+  border: 2px solid hsl(0deg, 0%, 95%);
+  border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(184deg, 100%, 22%);
+}
+.second button:hover {
+  background-color: hsl(184deg, 100%, 22%);
+  color: hsl(0deg, 0%, 95%);
+}
+
+.third {
+  width: 307px;
+  height: 501px;
+  background-color: hsl(179deg, 100%, 13%);
+  padding: 48px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+}
+.third #logo-3 {
+  width: 66px;
+  height: 40px;
+  background: url("./images/icon-luxury.svg") no-repeat center;
+}
+.third .title h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0deg, 0%, 95%);
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.third .content p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+.third button {
+  background-color: hsl(0deg, 0%, 95%);
+  width: 148px;
+  height: 50px;
+  border: 2px solid hsl(0deg, 0%, 95%);
+  border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(179deg, 100%, 13%);
+}
+.third button:hover {
+  background-color: hsl(179deg, 100%, 13%);
+  color: hsl(0deg, 0%, 95%);
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+  .container {
+    width: 327px;
+    height: 1326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+  .third {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */
