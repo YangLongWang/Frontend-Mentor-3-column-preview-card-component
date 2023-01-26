@@ -118,6 +118,7 @@ body {
     border-radius: 50px;
     font-family: $font-lexend-deca;
     color: $dark-cyan;
+    cursor: pointer;
   }
   button:hover {
     background-color: $dark-cyan;
@@ -155,7 +156,6 @@ body {
       font-family: $font-lexend-deca;
       color: $transparent-white;
       font-size: 15px;
-      // font-weight: 400;
     }
   }
   button {
@@ -166,6 +166,7 @@ body {
     border-radius: 50px;
     font-family: $font-lexend-deca;
     color: $very-dark-cyan;
+    cursor: pointer;
   }
   button:hover {
     background-color: $very-dark-cyan;

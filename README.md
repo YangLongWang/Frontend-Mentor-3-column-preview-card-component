@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Frontend%20Mentor%20-%203-column%20preview%20card%20component1.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/YangLongWang/Frontend-Mentor-3-column-preview-card-component](https://github.com/YangLongWang/Frontend-Mentor-3-column-preview-card-component)
+- Live Site URL: [https://yanglongwang.github.io/Frontend-Mentor-3-column-preview-card-component/](https://yanglongwang.github.io/Frontend-Mentor-3-column-preview-card-component/)
 
 ## My process
 
@@ -43,9 +43,9 @@ Users should be able to:
 
 ### What I learned
 
-- try using sass
+- using sass
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Github - [Longyang Wang](https://github.com/YangLongWang)
+- Frontend Mentor - [@Longyang Wang](https://www.frontendmentor.io/profile/YangLongWang)

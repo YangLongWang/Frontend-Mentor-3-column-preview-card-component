@@ -101,6 +101,7 @@ body {
   border-radius: 50px;
   font-family: "Lexend Deca", sans-serif;
   color: hsl(184deg, 100%, 22%);
+  cursor: pointer;
 }
 .second button:hover {
   background-color: hsl(184deg, 100%, 22%);
@@ -143,6 +144,7 @@ body {
   border-radius: 50px;
   font-family: "Lexend Deca", sans-serif;
   color: hsl(179deg, 100%, 13%);
+  cursor: pointer;
 }
 .third button:hover {
   background-color: hsl(179deg, 100%, 13%);
